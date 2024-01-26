@@ -67,16 +67,16 @@ define('MAIL_SENDMAIL_COMMAND', '/usr/sbin/sendmail -bs');
 define('DB_RUN_MIGRATIONS', true);
 
 // Database driver: sqlite, mysql, postgres, odbc, dblib, or mssql (sqlite by default)
-define('DB_DRIVER', 'sqlite');
+define('DB_DRIVER', 'postgres');
 
 // Database username
-define('DB_USERNAME', 'root');
+define('DB_USERNAME', 'ricaiachi');
 
 // Database password
-define('DB_PASSWORD', '');
+define('DB_PASSWORD', 'PIOb2kuscg6G');
 
 // Database hostname
-define('DB_HOSTNAME', 'localhost');
+define('DB_HOSTNAME', 'ep-cold-fog-a58ourj0.us-east-2.aws.neon.tech/kanboard');
 
 // Database database name
 define('DB_NAME', 'kanboard');
