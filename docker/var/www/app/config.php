@@ -14,7 +14,7 @@ define('DB_USERNAME', 'ricaiachi');
 define('DB_PASSWORD', 'PIOb2kuscg6G');
 
 // Database hostname
-define('DB_HOSTNAME', 'ep-cold-fog-a58ourj0.us-east-2.aws.neon.tech/kanboard');
+define('DB_HOSTNAME', 'ep-cold-fog-a58ourj0.us-east-2.aws.neon.tech');
 
 // Database database name
 define('DB_NAME', 'kanboard');
