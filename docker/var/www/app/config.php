@@ -18,3 +18,8 @@ define('DB_HOSTNAME', 'ep-cold-fog-a58ourj0.us-east-2.aws.neon.tech');
 
 // Database database name
 define('DB_NAME', 'kanboard');
+
+// Enable/Disable plugin installer (Disabled by default for security reasons)
+// There is no code review or any approval process to submit a plugin.
+// This is up to the Kanboard instance owner to validate if a plugin is legit.
+define('PLUGIN_INSTALLER', true);
