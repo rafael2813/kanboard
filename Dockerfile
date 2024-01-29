@@ -30,8 +30,8 @@ ADD docker/ /
 
 RUN rm -rf /var/www/app/docker && echo $VERSION > /var/www/app/app/version.txt
 
-RUN cp -rf /plugins/calendar/* /var/www/app/plugins
-RUN cp -rf /plugins/PluginManager/* /var/www/app/plugins
+RUN cp -rf plugins/calendar/* /var/www/app/plugins
+RUN cp -rf plugins/PluginManager/* /var/www/app/plugins
 
 ENTRYPOINT ["/usr/local/bin/entrypoint.sh"]
 CMD []
