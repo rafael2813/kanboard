@@ -1,5 +1,8 @@
 <?php
 
+defined('ENABLE_URL_REWRITE') or define('ENABLE_URL_REWRITE', true);
+defined('LOG_DRIVER') or define('LOG_DRIVER', 'system');
+
 // Database driver: sqlite, mysql, postgres, odbc, dblib, or mssql (sqlite by default)
 define('DB_DRIVER', 'postgres');
 
@@ -25,5 +28,3 @@ define('PLUGIN_API_URL', 'https://kanboard.org/plugins.json');
 // There is no code review or any approval process to submit a plugin.
 // This is up to the Kanboard instance owner to validate if a plugin is legit.
 define('PLUGIN_INSTALLER', true);
-defined('ENABLE_URL_REWRITE') or define('ENABLE_URL_REWRITE', true);
-defined('LOG_DRIVER') or define('LOG_DRIVER', 'system');
