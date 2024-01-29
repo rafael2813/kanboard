@@ -3,6 +3,7 @@
 defined('ENABLE_URL_REWRITE') or define('ENABLE_URL_REWRITE', true);
 defined('LOG_DRIVER') or define('LOG_DRIVER', 'system');
 
+
 // Database driver: sqlite, mysql, postgres, odbc, dblib, or mssql (sqlite by default)
 define('DB_DRIVER', 'postgres');
 
